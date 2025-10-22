@@ -8,7 +8,7 @@ data = {"human_query": "¿Cuántos usuarios tengo?"}
 try:
     response = requests.post(url, json=data, timeout=30)
     print(f"Status: {response.status_code}")
-    print(f"Response: {response.text}")
+    print(f"Response: {response.json()}")
 except Exception as e:
     print(f"Error: {e}")
 
