@@ -1,7 +1,7 @@
 // Código para integrar en DataSnap (agregar a main.js o crear chatbot.js)
 
 class DataSnapChatbot {
-    constructor(apiUrl = 'https://tu-app.onrender.com') {
+    constructor(apiUrl = 'https://chatbot-vffi.onrender.com') {
         this.apiUrl = apiUrl;
         this.chatContainer = null;
         this.init();
@@ -99,5 +99,5 @@ class DataSnapChatbot {
 
 // Inicializar cuando cargue la página
 document.addEventListener('DOMContentLoaded', () => {
-    new DataSnapChatbot('https://tu-app.onrender.com');
+    new DataSnapChatbot('https://chatbot-vffi.onrender.com');
 });
